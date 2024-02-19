@@ -1,9 +1,13 @@
 class Cliente {
-  String telefono;
-  String rnc_cedula;
   String nombre;
+  String rnc_cedula;
+  String telefono;
   String email;
   String direccion;
 
-  Cliente({this.telefono = '', this.rnc_cedula = '', this.nombre = '', this.email = '', this.direccion = ''});
+  Cliente({this.nombre = '',
+           this.rnc_cedula = '',
+           this.telefono = '',
+           this.email = '',
+           this.direccion = ''});
 }

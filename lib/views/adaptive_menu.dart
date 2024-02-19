@@ -104,7 +104,7 @@ class AdaptiveMenu extends StatelessWidget {
         Navigator.of(context).pushReplacementNamed('/login');
       },
       style: TextButton.styleFrom(
-        primary: Colors.red, // Color del texto
+        foregroundColor: Colors.red, // Color del texto
       ),
       child: Row(
         children: [

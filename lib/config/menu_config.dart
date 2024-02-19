@@ -34,5 +34,3 @@ final List<MenuItem> menuItems = [
     ],
   ),
 ];
-
-// Agrega las demás categorías con una estructura similar a la de 'Ventas'

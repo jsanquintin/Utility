@@ -27,9 +27,9 @@ class MyApp extends StatelessWidget {
         title: 'Taller Automotriz',
         theme: ThemeData(
           primarySwatch: Colors.deepPurple, // Define el color principal
-          appBarTheme: AppBarTheme(
+          appBarTheme: const AppBarTheme(
             backgroundColor: Colors.deepPurple, // Color de fondo para AppBars
-            titleTextStyle: TextStyle(
+            titleTextStyle: const TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.bold,
               fontSize: 20,

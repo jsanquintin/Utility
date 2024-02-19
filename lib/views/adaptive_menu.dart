@@ -28,8 +28,10 @@ class AdaptiveMenu extends StatelessWidget {
                 leading: Icon(item.icon),
                 title: Text(item.title),
                 onTap: () {
-                  if (item.routeName != null) {
-                    Navigator.of(context).pop(); // Cierra el drawer
+                  Navigator.of(context).pop(); // Cierra el drawer
+                  if (item.title == "Recepción de Vehículos") {
+                    Navigator.of(context).pushNamed('/recepcionVehiculosForm');
+                  } else if (item.routeName != null) {
                     Navigator.of(context).pushNamed(item.routeName!);
                   }
                 },

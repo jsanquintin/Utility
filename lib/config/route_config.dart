@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../views/Add_User_Page.dart';
 import '../views/home_view.dart';
 import '../views/login_view.dart';
 import '../views/welcome_view.dart';
@@ -14,5 +15,8 @@ class RouteConfig {
     '/welcome': (context) => const WelcomeView(),
     '/home': (context) => const HomeView(),
     '/recepcionVehiculosForm': (context) => RecepcionVehiculosForm(),
+    // En RouteConfig.dart o donde gestiones tus rutas
+    '/gestionUsuarios/crear': (context) => AddUserPage(),
+
   };
 }

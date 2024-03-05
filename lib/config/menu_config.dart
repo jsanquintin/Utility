@@ -33,4 +33,31 @@ final List<MenuItem> menuItems = [
       MenuItem(title: 'Consulta', icon: Icons.search, routeName: '/cotizacion/consulta'),
     ],
   ),
+  MenuItem(
+    title: 'Gestión de Usuarios',
+    icon: Icons.people,
+    subItems: [
+      MenuItem(title: 'Crear Usuario', icon: Icons.person_add, routeName: '/gestionUsuarios/crear'),
+      MenuItem(title: 'Editar Usuario', icon: Icons.edit, routeName: '/gestionUsuarios/editar'),
+      MenuItem(title: 'Eliminar Usuario', icon: Icons.delete, routeName: '/gestionUsuarios/eliminar'),
+    ],
+  ),
+  MenuItem(
+    title: 'Gestión de Compañías',
+    icon: Icons.business,
+    subItems: [
+      MenuItem(title: 'Agregar Compañía', icon: Icons.add_business, routeName: '/gestionCompanias/agregar'),
+      MenuItem(title: 'Editar Compañía', icon: Icons.edit, routeName: '/gestionCompanias/editar'),
+      MenuItem(title: 'Eliminar Compañía', icon: Icons.delete, routeName: '/gestionCompanias/eliminar'),
+    ],
+  ),
+  MenuItem(
+    title: 'Gestión de Sucursales',
+    icon: Icons.store,
+    subItems: [
+      MenuItem(title: 'Agregar Sucursal', icon: Icons.add_business, routeName: '/gestionSucursales/agregar'),
+      MenuItem(title: 'Editar Sucursal', icon: Icons.edit, routeName: '/gestionSucursales/editar'),
+      MenuItem(title: 'Eliminar Sucursal', icon: Icons.delete, routeName: '/gestionSucursales/eliminar'),
+    ],
+  ),
 ];
